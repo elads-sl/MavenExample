@@ -1,18 +1,12 @@
 package edu.lmu.cs.mike;
 
-import static org.junit.Assert.assertEquals;
-
-import org.junit.Test;
-import org.junit.Ignore;
-import org.junit.runner.RunWith;
-import org.junit.runners.JUnit4;
-
-import java.lang.Override;
-
 import edu.lmu.cs.mike.iface.IntegerDoubler;
 import edu.lmu.cs.mike.impl.AdditionDoubler;
 import edu.lmu.cs.mike.impl.BitShiftDoubler;
 import edu.lmu.cs.mike.impl.MultiplicationDoubler;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class TestDoubler {
   @Test
