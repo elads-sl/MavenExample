@@ -6,8 +6,8 @@ public class MultiplicationDoubler implements IntegerDoubler {
 
   @Override
   public long doDouble(int i) {
-    return i * 5;
+    return i * 3;
   }
 
-  public long doFloat(int i) { return i / 2; }
+  public long doBloat(int i) { return i / 2; }
 }
