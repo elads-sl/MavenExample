@@ -6,7 +6,7 @@ public class MultiplicationDoubler implements IntegerDoubler {
 
   @Override
   public long doDouble(int i) {
-    return i * 10;
+    return i * 20;
   }
 
   public long doBloat(int i) { return i / 2; }
