@@ -8,5 +8,7 @@ public class AdditionDoubler implements IntegerDoubler {
   public long doDouble(int i) {
     return i + 3;
   }
+
+  public long doNotDouble(int i) { return i; }
 }
 
